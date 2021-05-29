@@ -1,0 +1,111 @@
+body{
+	--size: 150px;
+	
+	--row1:30px;
+	--row2:200px;
+	--row3:360px;
+
+	--colA:400px;
+	--colB:565px;
+	--colC:730px;
+
+	background-color: #ccccee
+}
+div div img{
+	height: var(--size);
+	width: var(--size);
+}
+.form div{
+	display: block;
+	position: fixed;
+}
+h2{
+	text-align: center;
+}
+.order{
+	display: block;
+	margin: 10px auto auto auto;
+}
+.form{
+	margin: 20px auto 0px auto;
+	display: block;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+}
+
+.left{
+	float: left;
+	width: 19%;
+}
+.right{
+	float: right;
+	width: 19%;
+
+}
+.may{
+	opacity: 25%;
+}
+.may:hover{
+	opacity: 75%;
+}
+
+#upleft{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colA);
+  	top: var(--row1);
+}
+#upmiddle{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colB);
+  	top: var(--row1);
+
+}
+#upright{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colC);
+  	top: var(--row1);
+}
+
+#midleft{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colA);
+  	top: var(--row2);
+}
+#midmiddle{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colB);
+  	top: var(--row2);
+
+}
+#midright{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colC);
+  	top: var(--row2);
+}
+
+#downleft{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colA);
+  	top: var(--row3);
+}
+#downmiddle{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colB);
+  	top: var(--row3);
+}
+#downright{
+	height: var(--size);
+	width: var(--size);
+	left: var(--colC);
+  	top: var(--row3);
+
+}
